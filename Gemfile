@@ -13,7 +13,7 @@ gem 'jquery-rails'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 ## API
-gem 'rails-api', git: 'https://github.com/rails-api/rails-api.git', branch: 'master'
+gem 'rails-api'
 gem 'bcrypt-ruby'
 gem 'active_model_serializers'
 
