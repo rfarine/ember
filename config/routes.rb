@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
-  resources :api_keys
-
-  resources :users
-
   root to: 'home#index'
+
+  resources :users, except: [:new, :edit, :destroy]
+  post 'session' => 'session#create'
 end
